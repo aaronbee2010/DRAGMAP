@@ -159,7 +159,7 @@ int main(int argc, char* argv[])
 {
   namespace po = boost::program_options;
   po::options_description options(
-      "Usage: compare reference.sam new.sam [options]\n"
+      "Usage: dragen-compare reference.sam new.sam [options]\n"
       "compare the specified 'new.sam' file against 'reference.sam'.\n"
       "Supported options are:");
   options.add_options()("help", "produce help message")(
